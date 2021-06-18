@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 # log_format ui_short '$remote_addr  $remote_user $http_x_real_ip [$time_local] "$request" '
 #                     '$status $body_bytes_sent "$http_referer" '
@@ -43,7 +42,7 @@ REPORT_FILE_TEMPLATE = r'report-%Y.%m.%d.html'
 
 config = {
            "REPORT_SIZE": 1000,
-           "REPORT_DIR": "./reprts",
+           "REPORT_DIR": "./reports",
            "LOG_DIR": "./log",
            "TEMPLATE": "report.html",
            "MAX_ERROR_RATE": 0.8,
